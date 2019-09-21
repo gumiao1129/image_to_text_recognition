@@ -53,7 +53,7 @@ for eachImagePath in imagePath:
     print(eachImagePath)
     response = requests.get(eachImagePath, stream=True)
     file = BytesIO(response.content)
-    predictions, probabilities = prediction.predictImage(file, result_count=5, input_type='stream')
+    predictions, probabilities = prediction.predictImage(file, result_count=2, input_type='stream')
 
     for eachPrediction, eachProbability in zip(predictions, probabilities):
         print(eachPrediction , " : " , eachProbability)

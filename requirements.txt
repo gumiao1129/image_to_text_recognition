@@ -1,0 +1,11 @@
+Python 3.5.1 (and later versions) (Support for Python 2.7 coming soon
+Tensorflow 1.4.0 (and later versions)
+OpenCV
+Keras 2.x
+pip install -U tensorflow keras opencv-python
+
+pip3 install imageai --upgrade
+
+pip3 install requests
+
+pip3 install beautifulsoup4
