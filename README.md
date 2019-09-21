@@ -16,7 +16,7 @@ Suppport four algorithms and click download training modules<br>
 <a href="https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/DenseNet-BC-121-32.h5">DenseNet121 by Facebook AI Research</a>
 </ul>
 
-# Installation
+### Installation
  - Python 3.5.1 (and later versions) (Support for Python 2.7 coming soon
  - Tensorflow 1.4.0 (and later versions)
  - OpenCV 
@@ -36,7 +36,7 @@ pip3 install requests
  ```bash
 pip3 install beautifulsoup4
 ```
-#Example
+### Example
 Run example under folder ".\src\auto_prediction_google_AI.py" by commend line:
 ```bash
 python .\src\auto_prediction_google_AI.py
